@@ -1,0 +1,47 @@
+.suggestions--title {
+    font-size: 16px;
+}
+
+.suggestions__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.suggestions__item {
+    display: flex;
+    gap: .5rem;
+}
+
+.suggestions--img {
+    background-image: url(/assets/img/botao\ -\ enviar\ mensagem.png);
+    width: 48px;
+    height: 48px;
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+.suggestions--content {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.suggestions--text {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--texto-secundario);
+}
+
+.suggestions__list button {
+    color: white;
+    border-color: white;
+}
+
+.perfil0 {
+    background-image: url(/assets/img/botao\ -\ enviar\ mensagem.png);
+}
+
+.perfil1 {
+    background-image: url(/assets/img/botao\ -\ enviar\ mensagem2.png);
+}

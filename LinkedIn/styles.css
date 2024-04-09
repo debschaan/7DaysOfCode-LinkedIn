@@ -1,0 +1,60 @@
+/* Links dos arquivos css */
+@import url(assets/css/header/navbar.css);
+@import url(assets/css/main/main.css);
+@import url(assets/css/main/profile.css);
+@import url(assets/css/btns.css);
+@import url(assets/css/main/highlights.css);
+@import url(assets/css/main/activities.css);
+@import url(assets/css/main/experiences.css);
+@import url(assets/css/main/school.css);
+@import url(assets/css/main/idioms.css);
+@import url(assets/css/aside/aside.css);
+@import url(assets/css/aside/suggestions.css);
+
+/* Variáveis nativas */
+:root {
+    --fundo-card: #1B2226;
+    --texto-primario: #FFFFFF;
+    --input: #38434F;
+    --texto-secundario: #FFFFFF60;
+    --texto-escuro: #000000;
+    --primario: #70B5F9;
+    --fonte-primaria: 'Roboto', sans-serif;
+    --fonte-secundaria: 'Inter', sans-serif;
+}
+
+body {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--texto-primario);
+    background-color: #000000;
+    font-family: var(--fonte-primaria);
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "main aside";
+    grid-template-columns: 2fr 1fr;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+aside {
+    grid-area: aside;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 7rem;
+}
+
+

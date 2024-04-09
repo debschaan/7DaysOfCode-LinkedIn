@@ -1,0 +1,60 @@
+.activities {
+    position: relative;
+}
+
+.activities__list--item:first-child {
+    border-bottom: 1px solid var(--texto-primario);
+    margin-bottom: .5rem;
+}
+
+.activities__content {
+    display: flex;
+    gap: .5rem;
+    margin-bottom: .5rem;
+}
+
+.activities--img {
+    width: 20%;
+    background-repeat: no-repeat;
+}
+
+.img1 {
+    background-image: url(/assets/img/Rectangle9.png);
+}
+
+.img2 {
+    background-image: url(/assets/img/Rectangle91.png);
+}
+
+.activities--text {
+    font-weight: 400;
+    font-size: .75rem;
+    line-height: 1.25rem;
+    text-align: justify;
+}
+
+.activities--engagement {
+    display: flex;
+    position: relative;
+}
+
+.activities--link {
+    font-weight: 500;
+    color: var(--texto-secundario);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-top: 1px solid var(--texto-primario);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 0.75rem;
+    padding-bottom: .75rem;
+}
+
+.activities--engagement {
+    padding-bottom: .5rem;
+    margin-bottom: .5rem;
+}

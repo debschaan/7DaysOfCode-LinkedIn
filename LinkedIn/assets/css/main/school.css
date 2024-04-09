@@ -1,0 +1,40 @@
+.degrees {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.degrees--item {
+    display: flex;
+}
+
+.degrees--img {
+    background-image: url(/assets/img/ensino-foto.png);
+    width: 64px;
+    height: 64px;
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+.degrees__content {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.degrees__content--title {
+    font-size: 16px;
+}
+
+.degrees__content--subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--texto-principal);
+}
+
+.degrees__content--date {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--texto-secundario);
+}

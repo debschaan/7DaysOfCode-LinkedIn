@@ -1,0 +1,26 @@
+.idioms__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.idioms--item {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.idioms--title {
+    font-size: 16px;
+}
+
+.idioms--text {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--texto-secundario);
+}
+
+.idioms--item:first-of-type {
+    padding-bottom: .5rem;
+    border-bottom: 1px solid var(--texto-secundario);
+}

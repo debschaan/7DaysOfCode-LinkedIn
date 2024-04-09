@@ -1,0 +1,94 @@
+.profile {
+    position: relative;
+     height: 450px;
+}
+
+.profile--cover {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.profile-pic {
+    position: absolute;
+    top: 10rem;
+}
+
+/* BLOCO INFOS */
+.profile__content {
+    display: flex;
+    position: absolute;
+    top: 21rem;
+    gap: 6rem;
+}
+
+.profile-name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+.profile-description {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+
+.profile-text {
+    font-size: .75rem;
+    font-weight: 400;
+    color: var(--texto-secundario);
+    margin-bottom: .5rem;
+}
+
+.profile-info {
+    display: flex;
+    gap: .5rem;
+}
+
+.profile-link,
+.profile-numbers {
+    font-size: .75rem;
+    color: var(--primario);
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: .5rem;
+}
+
+.profile-numbers {
+    font-weight: 500;
+}
+
+.btn {
+    border-radius: 1rem;
+    padding: .5rem;
+    width: 8rem;
+    font-size: .75rem;
+    font-weight: 500;
+    margin-right: .5rem;
+}
+
+.reference-list {
+    display: flex;
+    align-items: center;
+}
+
+.reference-link {
+    background-image: url(/assets/img/Empresa.png);
+    width: 2rem;
+    height: 2rem;
+    margin: 0 .5rem .5rem 0;
+}
+
+.instituicao {
+    background-image: url(/assets/img/Instituicao.png);
+}
+
+.reference-text{
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    text-decoration: none;
+    color: var(--texto-primario);
+}

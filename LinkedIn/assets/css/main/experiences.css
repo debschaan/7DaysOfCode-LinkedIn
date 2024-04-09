@@ -1,0 +1,87 @@
+.jobs {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+
+.job--company {
+    display: flex;
+}
+
+.company-img {
+    background-image: url(/assets/img/empresa-foto.png);
+    width: 64px;
+    height: 64px;
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+.company-name {
+    font-size: 16px;
+}
+
+.company-info {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+
+.job--item {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    
+
+    position: relative;
+    left: 4rem;
+    margin-bottom: 1rem;
+}
+
+.jobs:first-of-type {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid white;
+}
+
+.job-name {
+    font-size: 16px;
+}
+
+.period, .local {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--texto-secundario);
+}
+
+.job-type {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--texto-principal);
+}
+
+
+
+/* decoração */
+
+.job--item::before, .job--item:after{
+    content: "";
+    position: absolute;
+    transform: translate(-30px, 50%);
+}
+  
+.job--item::before{
+    background-color: white;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+}
+  
+.job--item::after{
+    background-color: var(--texto-secundario);
+    left: 4px;
+    top: -5%;
+    width: 1px;
+    height: 48px;
+}
+  

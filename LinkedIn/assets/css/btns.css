@@ -1,0 +1,11 @@
+.btn1 {
+    background-color: var(--primario);
+    border: none;
+    color: var(--texto-escuro);
+}
+
+.btn2 {
+    background-color: transparent;
+    border: 1px solid var(--primario);
+    color: var(--primario);
+}
